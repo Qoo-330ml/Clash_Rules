@@ -1,5 +1,4 @@
 payload:
-  - '+.0-000.store'
   - '+.www.nicept.net'
   - '+.tracker.m-team.cc'
   - '+.www.pttime.org'
