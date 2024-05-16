@@ -9,6 +9,18 @@ cfw-latency-timeout: 3000
 cfw-latency-url: http://www.gstatic.com/generate_204
 
 rule-providers:
+  pt:
+    type: http
+    behavior: domain
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Qoo-330ml/Clash_Rules_PT/release/pt.txt"
+    path: ./ruleset/pt.yaml
+    interval: 86400
+  tracker:
+    type: http
+    behavior: domain
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Qoo-330ml/Clash_Rules_PT/release/tracker.txt"
+    path: ./ruleset/tracker.yaml
+    interval: 86400
   reject:
     type: http
     behavior: domain
