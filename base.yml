@@ -9,6 +9,12 @@ cfw-latency-timeout: 3000
 cfw-latency-url: http://www.gstatic.com/generate_204
 
 rule-providers:
+  PTweb:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Qoo-330ml/Clash_Rules/refs/heads/main/rule-providers/pt.txt"
+    path: ./ruleset/PTweb.yaml
+    interval: 86400
   PrivateTracker:
     type: http
     behavior: domain
